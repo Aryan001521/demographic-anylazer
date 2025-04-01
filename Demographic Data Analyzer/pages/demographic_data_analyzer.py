@@ -3,8 +3,7 @@ import numpy as np
 import os 
 def calculate_demographic_data(print_data=True):
 # Correct the filepath to point to the CSV file, not the Python script
-    filepath = os.path.join(r"C:\Users\aryan\OneDrive\Documents\phython project", 
-                            "Demographic Data Analyzer", "adult.data.csv.csv")
+    filepath = os.path.join( "Demographic Data Analyzer", "adult.data.csv.csv")
 
     # Read the CSV file
     df = pd.read_csv(filepath)
